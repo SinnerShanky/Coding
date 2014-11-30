@@ -1,0 +1,24 @@
+﻿<Advertisment>
+  <Ad>
+    <imageUrl>
+      1.jpg
+    </imageUrl>
+    <navigateUrl>
+      http://facebook.com
+    </navigateUrl>
+    <AlternateText>
+      Couldn't load image!
+    </AlternateText>
+  </Ad>
+  <Ad>
+    <imageUrl>
+      2.jpg
+    </imageUrl>
+    <navigateUrl>
+      http://dominos.com
+    </navigateUrl>
+    <AlternateText>
+      Couldn't load image!
+    </AlternateText>
+  </Ad>
+</Advertisment>

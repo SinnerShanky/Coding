@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisment>
+  <Ad>
+    <imageUrl>
+    </imageUrl>
+    <navigateUrl>
+    </navigateUrl>
+    <AlternateText>
+    </AlternateText>
+  </Ad>
+  <Ad>
+    <imageUrl>
+    </imageUrl>
+    <navigateUrl>
+    </navigateUrl>
+    <AlternateText>
+    </AlternateText>
+  </Ad>
+  <Ad>
+    <imageUrl>
+    </imageUrl>
+    <navigateUrl>
+    </navigateUrl>
+    <AlternateText>
+    </AlternateText>
+  </Ad>
+</Advertisment>

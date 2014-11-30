@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="logo" style="width:100%;height:120px">
+            <h1 style="width:763px; float:right; text-wrap:normal; height: 80px;">
+                <br />
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Backup Vault</h1>
+            <asp:Image ImageUrl="~/CloudBackupVault.jpg" ID="Image1" runat="server" Width="223px" Height="120px" />
+            
+            
+            
+        </div>
+        <hr />
+        <div id="sign" style="text-align:right">
+            
+            <asp:LinkButton ID="lbtn_signin" runat="server" Text="Sign In" OnClick="HPL_signin_Click" ></asp:LinkButton>
+            <asp:Label ID="hello" Text="Hello, " Visible="false" runat="server"></asp:Label>
+            <asp:LinkButton ID="lbtn_signout" runat="server" Text="Sign out" OnClick="lbtn_signout_Click" Visible="false" ></asp:LinkButton>
+        </div>
+        <hr />
+        <div id="menu"> 
+            <asp:HyperLink ID="HPL_Home" runat="server" NavigateUrl="~/Home.aspx" Text="Home"></asp:HyperLink>
+            <asp:HyperLink ID="HPL_Features" runat="server" NavigateUrl="~/Features.aspx" Text="Features"></asp:HyperLink>
+            <asp:HyperLink ID="HPL_UserDashboard" runat="server" NavigateUrl="~/Dashboard.aspx" Text="Dashboard" Visible="false"></asp:HyperLink>
+            <asp:HyperLink ID="HPL_Dashboard" runat="server" NavigateUrl="~/Admin.aspx" Text="Admin Dashboard" Visible="false"></asp:HyperLink>
+        </div>
+        <hr />
+
+    <div style="height:500px">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server" >
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div style="align-content:flex-end">
+            <hr />
+        </div>
+        <div id="footer" style="height:300px;margin-left:200px;margin-right:200px;text-align:center">
+            <asp:Label ID="lbl_Ad" runat="server" Text="Amazing Holidays Await You"></asp:Label>
+            <br />
+            <asp:AdRotator ID="adv" AdvertisementFile="~/XMLFile.xml" runat="server" Target="_self" Height="200px" Width="400px" />
+
+        </div>
+    </form>
+</body>
+</html>

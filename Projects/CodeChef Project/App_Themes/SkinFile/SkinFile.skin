@@ -1,0 +1,11 @@
+﻿<asp:TextBox runat="server" ForeColor="Red" SkinID="redSkin" />
+
+<asp:TextBox runat="server" ForeColor="Blue" SkinID="blueColor" />
+
+<asp:button runat="server" BackColor="lightblue" ForeColor="black" SkinId="button"/>
+
+<asp:GridView runat="server" SkinID="grid" Font-Name="Verdana"
+                Font-Size="10pt" Cellpadding="4"
+            HeaderStyle-BackColor="#444444"
+            HeaderStyle-ForeColor="White"
+                AlternatingRowStyle-BackColor="#dddddd" />

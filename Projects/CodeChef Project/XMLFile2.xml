@@ -1,0 +1,16 @@
+﻿<Advertisements>
+  <Ad>
+    <ImageUrl>11.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>Couldnt load</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword>US</Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>22.jpg</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText>couldnt load</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword>Dominos</Keyword>
+  </Ad>
+</Advertisements>
