@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&t);
     while(t--)
     {
-        scanf("%d %d",&a,&b);
+        scanf("%d%d",&a,&b);
         if(a<b) a^=b^=a^=b;
         float len=0;
         len=a/2.0;
